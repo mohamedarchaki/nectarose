@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nectarose</title>
+    <link rel="icon" href="../img/logo.ico">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/normlziecss.css">
+    <!-- 
+    - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body> 
+    <div class="header">
+        <div class="container">
+            <img src="../img/logo.png" alt="">
+            <ul id="link">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#product">Product</a></li>
+                <li><a href="../../index.html#contact">Contact</a></li>
+                <li><a href="../../About/index.html">About</a></li>
+            </ul>
+            <div id="menu">
+                <span class="span"></span>
+                <span class="span"></span>
+                <span class="span"></span>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="container">
+            <div class="box">
+                <img src="../img/prod4.png" alt="">
+            </div>
+            <form action="https://formspree.io/f/meqbbrzp" method="POST" class="box">
+                <h2>Lorem ipsum :</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ipsa cupiditate quis laboriosam nemo quos assumenda qui id quidem? Velit explicabo et impedit maxime dolor aspernatur ea expedita quis totam.</p>
+                <div class="info">
+                    <h3>info :</h3>
+                    <div class="input1">
+                        <label for="text">
+                        <input type="text" placeholder="Name" name="Name" id="name" onkeyup="validName()">
+                    </label>
+                    <label for="number">
+                        <input type="number" placeholder="Number" id="number" name="Number"  onkeyup="validNumber()">
+                    </label>
+                    </div>
+                    <div class="input1">
+                        <label for="text">
+                        <input type="text" name="Addriss" placeholder="Addriss" id="addriss" onkeyup="validAddriss()">
+                    </label>
+                    <label for="email">
+                        <input type="email" name="Email"  placeholder="Email" id="email" onkeyup="validEmail()">
+                    </label>
+                    </div>
+                </div>
+                <div class="coupan">
+                    <div class="coup"><h3>Coupan</h3></div>
+                    <div class="text">
+                        <p>Delivery Charges</p>
+                        <p>20.00dh</p>
+                    </div>
+                    <div class="text">
+                        <p>Taxes</p>
+                        <p>00.00</p>
+                    </div>
+                    <label for="text"><input type="text" value="69DH" name="prix" style="display: none;"></label>
+                    <div class="text">
+                        <p>Grand Total <br> <span >69DH</span></p>
+                        <button id="btn" type="submit" onclick=" return validForm()">Pay Now</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- start footer  -->
+    <div class="footer">
+        <div class="container">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#product">Product</a></li>
+                <li><a href="../../index.html#contact">Contact</a></li>
+                <li><a href="../../About/index.html">About</a></li>
+            </ul>
+            <div class="img">
+                <img src="../img/logoW.png" alt="">
+                <div class="socail">
+                    <a href="" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fab fa-instagram" style="font-weight: bold;"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fab fa-whatsapp" style="font-weight: bold;"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="">All Prodacte</a></li>
+                <li><a href="../../service/index.html">Services</a></li>
+                <li><a href="">how Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end footer  -->
+    <script src="../js/javaScript.js"></script>
+</body>
+</html>
